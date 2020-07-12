@@ -16,6 +16,7 @@ def pipeline(directory, container):
     container.append(tensor)
     if i%5000 == 0:
       print("Iteration:", i)
+    i+=1
       
 # Creating empty lists for each category
 uninfected = []
