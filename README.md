@@ -10,4 +10,4 @@ MaxPool2D: Further decrease size of the image
 Dropout: Prevent overfitting by randomization
 Dense: Final layers that provide the classification value
 
-Stopped training at 30 epochs as further iterations through the data set were unnecessary 
+Stopped training at 20 epochs as further iterations through the data set were unnecessary 
