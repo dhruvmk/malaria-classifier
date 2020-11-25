@@ -13,7 +13,7 @@ def pipeline(directory, container):
     full_file = os.path.join(directory, fn)
     tensor = resize(imread(full_file, plugin='matplotlib')  , (30, 30, 3))
     tensor_normalize = tensor/255.
-    container.append(tensor)
+    container.append(tensor_normalize)
     if i%5000 == 0:
       print("Iteration:", i)
     i+=1
